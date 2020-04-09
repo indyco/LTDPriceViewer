@@ -5,9 +5,9 @@ $topSaleValue = 1500000
 do {
     Clear-Host
     Get-Date | Write-Host -f yellow
-    $webData = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
-    $x = ($webData | ConvertFrom-Json) | Select-Object -First 10
-    $x | Format-Table `
+    $webRequest = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
+    $jsonData = ($webRequest | ConvertFrom-Json) | Select-Object -First 10
+    $jsonData | Format-Table `
         system,`
         station,`
         @{ Label = "prices"
@@ -64,7 +64,7 @@ do {
         }
 
 
-        $x | ForEach-Object {
+        $jsonData | ForEach-Object {
             if ((($_.price/1) -ge $topSaleValue) -and ($topSellerList.station -notcontains $_.station)) {
                 #write-host $_
                 $topSellerList += $_

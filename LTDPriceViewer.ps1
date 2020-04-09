@@ -1,6 +1,6 @@
 $timesToRun = 0
 $topSellerList = @()
-$topSaleValue = 1500000
+$topSellerThreshold = 1500000
 
 do {
     Clear-Host
@@ -65,11 +65,11 @@ do {
 
 
         $jsonData | ForEach-Object {
-            if ((($_.price/1) -ge $topSaleValue) -and ($topSellerList.station -notcontains $_.station)) {
+            if ((($_.price/1) -ge $topSellerThreshold) -and ($topSellerList.station -notcontains $_.station)) {
                 #write-host $_
                 $topSellerList += $_
             }
-            elseif ((($_.price/1) -ge $topSaleValue) -and ($topSellerList.station -contains $_.station)) {
+            elseif ((($_.price/1) -ge $topSellerThreshold) -and ($topSellerList.station -contains $_.station)) {
                 $currentObject = $_
 
                 $topSellerList | ForEach-Object { 
@@ -83,7 +83,7 @@ do {
         }
     
     
-    Write-Host "`nSellers over $topSaleValue while running:"
+    Write-Host "`nSellers over $topSellerThreshold while running:"
     $topSellerList | Format-Table `
         system,`
         station,`

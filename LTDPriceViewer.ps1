@@ -1,6 +1,6 @@
-$timesToRun = 0
+[Int]$timesToRun = 0
+[Int]$topSellerThreshold = 1500000
 $topSellerList = @()
-$topSellerThreshold = 1500000
 
 do {
     Clear-Host
@@ -13,7 +13,7 @@ do {
         @{ Label = "prices"
             Expression =
             {
-                switch ($_.price | foreach-object { $_/1 } )
+                switch ($_.price | foreach-object { $_/1 } ) #divide by 1 to convert string to int
                 {
                     {($_ -ge 1200000)} { $color = "32"; break }
                     {($_ -lt 1200000)} { $color = "91"; break }

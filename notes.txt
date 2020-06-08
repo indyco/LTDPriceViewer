@@ -1,0 +1,35 @@
+
+
+prices      - greater than / less than 1.2m;            color 
+demand      - greater than / less than 1000;            color
+distance    - greater than / less than 100, 200, 200;   color
+
+- all finish with:
+              default { $color = "0" }
+        $e = [char]27
+        "$e[${color}m$($_.demand)${e}[0m"
+
+
+switch ( $_.property | foreach-object ($_/1 or Sqrt math)
+                                      (input)
+        switch ($_.price  | foreach-object { $_/1 } )
+        switch ($_.demand | foreach-object { $_/1 } )
+        switch ($_.coords | foreach-object { 
+                    [Math]::Sqrt([Math]::Pow($_.x - $borranX, 2) +`
+                                 [Math]::Pow($_.y - $borranY, 2) +`
+                                 [Math]::Pow($_.z - $borranZ, 2))
+                                })
+
+
+so in a function, each piece would need:
+- PRICES | foreach-object
+    - functionName { $_.price, $divideByOne }  // need a way to tell function what to do? dividebyone or Sqrt
+- DEMAND | foreach-object                      // if (object.count greater than one, or equals 3, do distance?)
+    - functionName { $_.demand, $divideByOne }
+- DISTANCE | foreach-object
+    - functionName { $_.coords, $determineDistance}
+
+
+switchFunctionAndColor($StationData, $whattodo){
+
+}

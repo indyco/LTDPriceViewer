@@ -1,0 +1,402 @@
+[
+    {
+        "system": "Chnemine",
+        "station": "Birkhoff Station",
+        "price": "1522920",
+        "pad": "L",
+        "ago": "15 secs",
+        "ago_sec": "15",
+        "demand": "3449",
+        "system_url": "\/system\/3387",
+        "station_url": "\/station\/27535",
+        "coords": {
+            "x": -138.90625,
+            "y": -74.25,
+            "z": -36.53125
+        }
+    },
+    {
+        "system": "LHS 3804",
+        "station": "Kuhn Dock",
+        "price": "1396732",
+        "pad": "M",
+        "ago": "29 mins",
+        "ago_sec": "1751",
+        "demand": "83",
+        "system_url": "\/system\/12065",
+        "station_url": "\/station\/21993",
+        "coords": {
+            "x": 5.03125,
+            "y": -31.75,
+            "z": 21.78125
+        }
+    },
+    {
+        "system": "Gluskas",
+        "station": "Carlisle Dock",
+        "price": "1202482",
+        "pad": "L",
+        "ago": "41 mins",
+        "ago_sec": "2478",
+        "demand": "2245",
+        "system_url": "\/system\/5362",
+        "station_url": "\/station\/27744",
+        "coords": {
+            "x": -58.3125,
+            "y": 34.53125,
+            "z": 161.25
+        }
+    },
+    {
+        "system": "Alcor",
+        "station": "Macdonald Settlement",
+        "price": "1161008",
+        "pad": "L",
+        "ago": "5 mins",
+        "ago_sec": "292",
+        "demand": "1839",
+        "system_url": "\/system\/692",
+        "station_url": "\/station\/2071",
+        "coords": {
+            "x": -36,
+            "y": 71.78125,
+            "z": -15.125
+        }
+    },
+    {
+        "system": "Muri",
+        "station": "Vasquez de Coronado Dock",
+        "price": "1136983",
+        "pad": "L",
+        "ago": "10 mins",
+        "ago_sec": "602",
+        "demand": "6868",
+        "system_url": "\/system\/13965",
+        "station_url": "\/station\/3017",
+        "coords": {
+            "x": -134.46875,
+            "y": 4.28125,
+            "z": -10.625
+        }
+    },
+    {
+        "system": "Kuk",
+        "station": "Veblen City",
+        "price": "1124564",
+        "pad": "L",
+        "ago": "6 mins",
+        "ago_sec": "369",
+        "demand": "17306",
+        "system_url": "\/system\/11143",
+        "station_url": "\/station\/4787",
+        "coords": {
+            "x": -21.28125,
+            "y": 69.09375,
+            "z": -16.3125
+        }
+    },
+    {
+        "system": "Bresatese",
+        "station": "de Andrade Terminal",
+        "price": "968554",
+        "pad": "P",
+        "ago": "16 hours",
+        "ago_sec": "56366",
+        "demand": "560",
+        "system_url": "\/system\/2594",
+        "station_url": "\/station\/51708",
+        "coords": {
+            "x": -9.0625,
+            "y": 15.25,
+            "z": 119.1875
+        }
+    },
+    {
+        "system": "Comana",
+        "station": "Gaspar de Portola Dock",
+        "price": "962271",
+        "pad": "L",
+        "ago": "6 hours",
+        "ago_sec": "20299",
+        "demand": "2934",
+        "system_url": "\/system\/3787",
+        "station_url": "\/station\/19024",
+        "coords": {
+            "x": -108.59375,
+            "y": 21.15625,
+            "z": 98.0625
+        }
+    },
+    {
+        "system": "Mac Og",
+        "station": "Amis Dock",
+        "price": "962271",
+        "pad": "L",
+        "ago": "2 hours",
+        "ago_sec": "5535",
+        "demand": "4051",
+        "system_url": "\/system\/13009",
+        "station_url": "\/station\/7935",
+        "coords": {
+            "x": 80.9375,
+            "y": -24.15625,
+            "z": 84.90625
+        }
+    },
+    {
+        "system": "Prom Du",
+        "station": "Hand Colony",
+        "price": "961832",
+        "pad": "L",
+        "ago": "1 hours",
+        "ago_sec": "5299",
+        "demand": "2380",
+        "system_url": "\/system\/15758",
+        "station_url": "\/station\/27996",
+        "coords": {
+            "x": 2.90625,
+            "y": -1.5625,
+            "z": -120.4375
+        }
+    },
+    {
+        "system": "Sakpata",
+        "station": "Allen Horizons",
+        "price": "960176",
+        "pad": "L",
+        "ago": "6 hours",
+        "ago_sec": "20871",
+        "demand": "792",
+        "system_url": "\/system\/16406",
+        "station_url": "\/station\/15378",
+        "coords": {
+            "x": -9.59375,
+            "y": 51.9375,
+            "z": 56.90625
+        }
+    },
+    {
+        "system": "Potrigua",
+        "station": "Mitchell City",
+        "price": "960176",
+        "pad": "M",
+        "ago": "13 hours",
+        "ago_sec": "46015",
+        "demand": "455",
+        "system_url": "\/system\/15720",
+        "station_url": "\/station\/8429",
+        "coords": {
+            "x": 51.5,
+            "y": -58.25,
+            "z": -44.53125
+        }
+    },
+    {
+        "system": "Prajan",
+        "station": "Lebesgue City",
+        "price": "940017",
+        "pad": "L",
+        "ago": "20 hours",
+        "ago_sec": "72744",
+        "demand": "3522",
+        "system_url": "\/system\/15735",
+        "station_url": "\/station\/26668",
+        "coords": {
+            "x": 56.59375,
+            "y": 139.59375,
+            "z": 10.78125
+        }
+    },
+    {
+        "system": "Motilekui",
+        "station": "Schwabe Terminal",
+        "price": "939231",
+        "pad": "L",
+        "ago": "2 days",
+        "ago_sec": "180012",
+        "demand": "4487",
+        "system_url": "\/system\/13875",
+        "station_url": "\/station\/11195",
+        "coords": {
+            "x": 115.9375,
+            "y": -244.65625,
+            "z": -64.875
+        }
+    },
+    {
+        "system": "Aknango",
+        "station": "Moorcock Settlement",
+        "price": "939231",
+        "pad": "P",
+        "ago": "2 days",
+        "ago_sec": "153297",
+        "demand": "1289",
+        "system_url": "\/system\/645",
+        "station_url": "\/station\/60933",
+        "coords": {
+            "x": -155.40625,
+            "y": 30,
+            "z": -76.4375
+        }
+    },
+    {
+        "system": "LTT 14271",
+        "station": "Hutchinson Landing",
+        "price": "939229",
+        "pad": "L",
+        "ago": "8 hours",
+        "ago_sec": "29794",
+        "demand": "742",
+        "system_url": "\/system\/12606",
+        "station_url": "\/station\/7829",
+        "coords": {
+            "x": -31.625,
+            "y": 70.125,
+            "z": 8.71875
+        }
+    },
+    {
+        "system": "Manitola",
+        "station": "Rigaux Beacon",
+        "price": "928757",
+        "pad": "P",
+        "ago": "14 hours",
+        "ago_sec": "49707",
+        "demand": "1204",
+        "system_url": "\/system\/13250",
+        "station_url": "\/station\/42088",
+        "coords": {
+            "x": 124.21875,
+            "y": -106.78125,
+            "z": 71.09375
+        }
+    },
+    {
+        "system": "Paesia",
+        "station": "Ramon City",
+        "price": "928757",
+        "pad": "L",
+        "ago": "23 hours",
+        "ago_sec": "81598",
+        "demand": "4005",
+        "system_url": "\/system\/15198",
+        "station_url": "\/station\/30976",
+        "coords": {
+            "x": 107.59375,
+            "y": -15.0625,
+            "z": 130.4375
+        }
+    },
+    {
+        "system": "NLTT 8084",
+        "station": "Surayev Hub",
+        "price": "928757",
+        "pad": "L",
+        "ago": "12 hours",
+        "ago_sec": "44671",
+        "demand": "3305",
+        "system_url": "\/system\/14666",
+        "station_url": "\/station\/41303",
+        "coords": {
+            "x": -11,
+            "y": -60.6875,
+            "z": -44.1875
+        }
+    },
+    {
+        "system": "Aasgaa",
+        "station": "Powell Prospect",
+        "price": "924044",
+        "pad": "M",
+        "ago": "4 hours",
+        "ago_sec": "15353",
+        "demand": "2113",
+        "system_url": "\/system\/19859",
+        "station_url": "\/station\/5432",
+        "coords": {
+            "x": 97.3125,
+            "y": 44.15625,
+            "z": 57.9375
+        }
+    },
+    {
+        "system": "Nauni",
+        "station": "Beaufoy Vision",
+        "price": "918284",
+        "pad": "L",
+        "ago": "3 hours",
+        "ago_sec": "11490",
+        "demand": "10183",
+        "system_url": "\/system\/14217",
+        "station_url": "\/station\/19094",
+        "coords": {
+            "x": -33.5,
+            "y": -70.1875,
+            "z": -162.1875
+        }
+    },
+    {
+        "system": "58 Epsilon Herculis",
+        "station": "Thurston Dock",
+        "price": "918284",
+        "pad": "L",
+        "ago": "52 mins",
+        "ago_sec": "3125",
+        "demand": "11143",
+        "system_url": "\/system\/262",
+        "station_url": "\/station\/3399",
+        "coords": {
+            "x": -100.3125,
+            "y": 90.5625,
+            "z": 75.90625
+        }
+    },
+    {
+        "system": "Chlevit",
+        "station": "Leonov City",
+        "price": "918284",
+        "pad": "L",
+        "ago": "2 days",
+        "ago_sec": "197654",
+        "demand": "5440",
+        "system_url": "\/system\/3385",
+        "station_url": "\/station\/18929",
+        "coords": {
+            "x": -161.90625,
+            "y": 48.125,
+            "z": -18.21875
+        }
+    },
+    {
+        "system": "HR 4130",
+        "station": "Garratt Ring",
+        "price": "918284",
+        "pad": "L",
+        "ago": "8 mins",
+        "ago_sec": "468",
+        "demand": "8890",
+        "system_url": "\/system\/9272",
+        "station_url": "\/station\/26311",
+        "coords": {
+            "x": 125.8125,
+            "y": 59.65625,
+            "z": -0.71875
+        }
+    },
+    {
+        "system": "Pangkomo",
+        "station": "Elwood Dock",
+        "price": "918284",
+        "pad": "L",
+        "ago": "10 hours",
+        "ago_sec": "37339",
+        "demand": "6664",
+        "system_url": "\/system\/15264",
+        "station_url": "\/station\/38182",
+        "coords": {
+            "x": -104.0625,
+            "y": -11.34375,
+            "z": -131.6875
+        }
+    }
+]

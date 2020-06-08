@@ -1,11 +1,11 @@
-$timesToRun = 0
+[Int]$timesToRun = 0
+[Int]$topSellerThreshold = 1500000
 $topSellerList = @()
-$topSellerThreshold = 1500000
 
 do {
+    $webRequest = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
     Clear-Host
     Get-Date | Write-Host -f yellow
-    $webRequest = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
     $jsonData = ($webRequest | ConvertFrom-Json) | Select-Object -First 10
     $jsonData | Format-Table `
         system,`
@@ -13,7 +13,7 @@ do {
         @{ Label = "prices"
             Expression =
             {
-                switch ($_.price | foreach-object { $_/1 } )
+                switch ($_.price | foreach-object { $_/1 } ) #divide by 1 to convert string to int
                 {
                     {($_ -ge 1200000)} { $color = "32"; break }
                     {($_ -lt 1200000)} { $color = "91"; break }

@@ -3,9 +3,9 @@
 $topSellerList = @()
 
 do {
+    $webRequest = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
     Clear-Host
     Get-Date | Write-Host -f yellow
-    $webRequest = Invoke-WebRequest -URI 'http://edtools.ddns.net/trd.php?f=json&cid=276'
     $jsonData = ($webRequest | ConvertFrom-Json) | Select-Object -First 10
     $jsonData | Format-Table `
         system,`

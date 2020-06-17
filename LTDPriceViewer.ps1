@@ -40,16 +40,21 @@ do {
         @{ Label = "distance"
             Expression =
             {
-                $borranX = "123.03125"
-                $borranY = "-0.25"
-                $borranZ = "2.84375"
+                # $borranX = "123.03125"
+                # $borranY = "-0.25"
+                # $borranZ = "2.84375"
+
+                # Currently set to: Shinrarta Dezhra
+                $baseX = "55.71875"
+                $baseY = "17.59375 "
+                $baseZ = "27.15625"
 
                 $distance = 0
 
                 switch ($_.coords | foreach-object { 
-                    [Math]::Sqrt([Math]::Pow($_.x - $borranX, 2) +`
-                                 [Math]::Pow($_.y - $borranY, 2) +`
-                                 [Math]::Pow($_.z - $borranZ, 2))
+                    [Math]::Sqrt([Math]::Pow($_.x - $baseX, 2) +`
+                                 [Math]::Pow($_.y - $baseY, 2) +`
+                                 [Math]::Pow($_.z - $baseZ, 2))
                                 })
                 {
                     {($_ -lt 100)} { $color = "32"; $distance = $_; break }
@@ -117,16 +122,21 @@ do {
         @{ Label = "distance"
             Expression =
             {
-                $borranX = "123.03125"
-                $borranY = "-0.25"
-                $borranZ = "2.84375"
+                # $borranX = "123.03125"
+                # $borranY = "-0.25"
+                # $borranZ = "2.84375"
+
+                # Currently set to: Shinrarta Dezhra
+                $baseX = "55.71875"
+                $baseY = "17.59375 "
+                $baseZ = "27.15625"
 
                 $distance = 0
 
                 switch ($_.coords | foreach-object { 
-                    [Math]::Sqrt([Math]::Pow($_.x - $borranX, 2) +`
-                                 [Math]::Pow($_.y - $borranY, 2) +`
-                                 [Math]::Pow($_.z - $borranZ, 2))
+                    [Math]::Sqrt([Math]::Pow($_.x - $baseX, 2) +`
+                                 [Math]::Pow($_.y - $baseY, 2) +`
+                                 [Math]::Pow($_.z - $baseZ, 2))
                                 })
                 {
                     {($_ -lt 100)} { $color = "32"; $distance = $_; break }

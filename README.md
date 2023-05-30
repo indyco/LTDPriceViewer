@@ -1,5 +1,3 @@
-GitHub Copilot: Sure, here's a possible README.md file for the PowerShell script you provided:
-
 # LTDPriceViewer.ps1
 
 This PowerShell script retrieves data from a website and formats it into a table. The script seems to be related to prices and demand for a certain system and station.
